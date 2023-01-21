@@ -1,0 +1,143 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+nav
+{
+	position: fixed;
+	width: 100%;
+	background-color: orange;
+	box-shadow: 1px 2px 2px 2px orange;
+	top: 0;
+}
+
+ul
+{
+	display: flex;
+}
+
+ul li
+{
+	list-style-type: none;
+	padding-left: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+a, a:hover
+{
+	text-decoration: none;
+}
+
+.logoName
+{
+	font-size: 22px;
+	color: black;
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.conteneurElementAccueil
+{
+	margin: 30px;
+	padding: 10px;
+	margin-top: 70px;
+	border-radius: 10px;
+	box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.conteneurElementAccueil header
+{
+	font-family: fantasy;
+	font-size: 42px;
+	text-align: center;
+}
+
+.informationVisiteur
+{
+	margin-bottom: 20px;
+}
+
+.informationVisiteur label
+{
+	font-size: 19px;
+	font-family: serif;
+
+}
+
+.informationVisiteur input
+{
+	width: 80%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+
+#submitInformation
+{
+	font-size: 22px;
+	text-align: center;
+	background-color: darkorange;
+	cursor: pointer;
+	margin-left: 20%;
+	padding: 14px;
+	padding-left: 20%; 
+	padding-right: 20%;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 2px orange;
+}
+
+.conteneurPrincipalListe
+{
+	margin-top: 90px;
+}
+
+
+.listeParticipantDonnee
+{
+	display: flex;
+	margin-left: 1px;
+	padding-left: 1px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	flex-wrap: wrap;
+}
+
+.listeParticipantDonnee div,.headerListeParticipantDonnee div
+{
+	padding: 10px;
+}
+
+.headerListeParticipantDonnee
+{
+	display: flex; 
+	margin-top: 20px; 
+	font-weight: bold;
+	font-size: 16px;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 844px)
+{
+
+.listeParticipantDonnee div,.headerListeParticipantDonnee div
+{
+	font-size: 20px;
+}
+
+}
+
+
+@media (min-width: 1024px)
+{
+.conteneurElementAccueil
+{
+	margin-left: 14%;
+	margin-right: 14%;
+}
+
+}
+
